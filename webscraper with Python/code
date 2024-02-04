@@ -1,0 +1,8 @@
+from selenium import webdriver
+
+url= 'https://toscrape.com/'
+browser= webdriver.Brave()
+
+browser.get(url)
+browser.find_element_by_xpath().click()
+
